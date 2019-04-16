@@ -2,7 +2,9 @@
   <img src="image.jpg"; style="padding-left: 8%;border-radius: 50%;height: 30%;">
   <h3>Manu Mathew</h3>
 {%- if site.email -%}
-<p style="color: #818181; padding: 6px 10px 1px 16px; margin-bottom: 0px">Mail@</p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+<p style="color: #818181; padding: 6px 10px 1px 16px; margin-bottom: 0px">
+  <img style="width: 25px" src="email_icon.png">
+</p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
 {%- endif -%}
 
  <p style="color: #818181; padding: 6px 10px 1px 16px; margin-bottom: 0px">Social</p>

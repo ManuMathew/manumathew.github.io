@@ -347,6 +347,13 @@ table {
 
 }
 
+@media screen and (min-width: 450px) {
+ .post-content {
+  padding-left: 20%
+ }
+
+}
+
 .post-header {
   margin-bottom: 30px; }
 
@@ -543,14 +550,26 @@ body {
   color: #818181;
 }
 
-.sidenav h3 {
-   padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
+.sidenav h3, h4 {
+  padding: 6px 8px 6px 16px;
   color: #818181;
-  display: block; 
 }
 
+.sidenav .mobile {
+  margin-bottom: 0px;
+}
+
+.social-icons-row {
+  padding-top: 12px;
+  padding-left: 2px;
+}
+
+.sidenav .my-name {
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  margin-bottom: 0px; 
+}
 .sidenav a:hover {
   color: #f1f1f1;
 }
